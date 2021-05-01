@@ -55,14 +55,14 @@ const Home = React.forwardRef((props, ref) => {
           specfic={repos.specificRepos}
         />
       )}
-      {leadership.show && (
+      {/* {leadership.show && (
         <Leadership
           heading={leadership.heading}
           message={leadership.message}
           img={leadership.images}
           imageSize={leadership.imageSize}
         />
-      )}
+      )} */}
       {skills.show && (
         <Skills
           heading={skills.heading}
@@ -85,13 +85,13 @@ const App = () => {
       {/* {false && <Route path="/blog" exact component={Blog} />}
       {false && <Route path="/blog/:id" component={BlogPost} />} */}
       <Footer>
-        {getInTouch.show && (
+        {/* {getInTouch.show && (
           <GetInTouch
             heading={getInTouch.heading}
             message={getInTouch.message}
             email={getInTouch.email}
           />
-        )}
+        )} */}
       </Footer>
     </BrowserRouter>
   );
