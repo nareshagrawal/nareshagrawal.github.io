@@ -85,13 +85,13 @@ const App = () => {
       {/* {false && <Route path="/blog" exact component={Blog} />}
       {false && <Route path="/blog/:id" component={BlogPost} />} */}
       <Footer>
-        {/* {getInTouch.show && (
+        {getInTouch.show && (
           <GetInTouch
             heading={getInTouch.heading}
             message={getInTouch.message}
             email={getInTouch.email}
           />
-        )} */}
+        )}
       </Footer>
     </BrowserRouter>
   );
