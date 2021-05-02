@@ -21,7 +21,7 @@ const mainBody = {
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/naresh_agrawal316/",
     },
     {
       image: "fa-linkedin",
@@ -50,8 +50,8 @@ const about = {
   imageLink: require("../editable-stuff/nareshagrawal.jpg"),
   imageSize: 375,
   message:
-    "An Engineer by profession, a problem-solver by passion. I possess a strong technical background and “Roll up your sleeves” attitude, going above and beyond the team to accomplish objectives and key results. I am a team player, keen learner, and believe in consistency by nature. Problems that are challenging and that have a large-scale impact, excite me most.Currently, a full-time graduate student pursuing a Masters in Information Systems at Northeastern University, Boston. An ambitious and analytical individual, utilizing exceptional skills and competence in understanding client business requirements and delivering the best possible solution.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "An Engineer by profession, a problem-solver by passion. I possess a strong technical background and “Roll up your sleeves” attitude, going above and beyond the team to accomplish objectives and key results. I am a team player, keen learner, and believe in consistency by nature. Problems that are challenging and that have a large-scale impact, excite me most.\nCurrently, a full-time graduate student pursuing a Masters in Information Systems at Northeastern University, Boston. An ambitious and analytical individual, utilizing exceptional skills and competence in understanding client business requirements and delivering the best possible solution.",
+  resume: "https://drive.google.com/file/d/1mBWauMZA0I-WyuuZ5XUuvOwESsFSGUH7/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -67,29 +67,6 @@ const repos = {
   specificRepos: [],
 };
 
-// Leadership SECTION
-const leadership = {
-  show: false,
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
-  images: [
-    { 
-      img: require("../editable-stuff/nareshagrawal.jpg"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-    { 
-      img: require("../editable-stuff/nareshagrawal.jpg"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-  ],
-  imageSize: {
-    width:"615",
-    height:"450"
-  }
-};
 
 // SKILLS SECTION
 const skills = {
@@ -148,4 +125,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, getInTouch, experiences };

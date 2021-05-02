@@ -13,6 +13,7 @@ const ExperienceCard = ({data}) => {
                     <br/>
                     {data.date}
                     <br/>
+                    <br/>
                     {data.content}
                 </p>              
             </div>
