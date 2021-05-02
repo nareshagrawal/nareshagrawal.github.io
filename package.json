@@ -5,9 +5,9 @@
   "version": "2.0.0",
   "private": true,
   "author": {
-    "name": "Hashir Shoaib",
-    "email": "hashirshoaeb@gmail.com",
-    "url": "https://github.com/hashirshoaeb"
+    "name": "Naresh Agrawal",
+    "email": "nareshagrawal316@gmail.com",
+    "url": "https://github.com/nareshagrawal"
   },
   "dependencies": {
     "axios": "^0.19.2",
