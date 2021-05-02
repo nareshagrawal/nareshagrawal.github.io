@@ -50,8 +50,8 @@ const about = {
   imageLink: require("../editable-stuff/nareshagrawal.jpg"),
   imageSize: 375,
   message:
-    "An Engineer by profession, a problem-solver by passion. I possess a strong technical background and “Roll up your sleeves” attitude, going above and beyond the team to accomplish objectives and key results. I am a team player, keen learner, and believe in consistency by nature. Problems that are challenging and that have a large-scale impact, excite me most.\nCurrently, a full-time graduate student pursuing a Masters in Information Systems at Northeastern University, Boston. An ambitious and analytical individual, utilizing exceptional skills and competence in understanding client business requirements and delivering the best possible solution.",
-  resume: "https://drive.google.com/file/d/1mBWauMZA0I-WyuuZ5XUuvOwESsFSGUH7/view?usp=sharing",
+    "An Engineer by profession, a problem-solver by passion. I possess a strong technical background and “Roll up your sleeves” attitude, going above and beyond the team to accomplish objectives and key results. I am a team player, keen learner, and believe in consistency by nature. Problems that are challenging and that have a large-scale impact, excite me most.\n Currently, a full-time graduate student pursuing a Masters in Information Systems at Northeastern University, Boston. An ambitious and analytical individual, utilizing exceptional skills and competence in understanding client business requirements and delivering the best possible solution.",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -73,14 +73,20 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
+    { name: "Kubernetes, Helm Chart, Kops", value: 95 },
+    { name: "AWS, Azure", value: 95 },
+    { name: "Docker", value: 95 },
+    { name: "DevOps Tools", value: 95 },
+    { name: "IaC(Ansible, Terraform)", value: 95 },
+    { name: "CI/CD(Jenkins, CircleCI, GitHub Actions)", value: 95 },
+    { name: "Microservices, Apache Kafka, Git", value: 95 },
+    { name: "Scripting", value: 75 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Java", value: 90 },
+    { name: "JavaScript", value: 80 },
+    { name: "React", value: 75 },
+    { name: "HTML/CSS", value: 90 },
+    { name: "SQL, NoSQL", value: 90 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -99,7 +105,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for full-time Site Reliability Engineering, DevOps Engineer or Software Engineering opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "nareshagrawal316@gmail.com",
 };
 
@@ -111,18 +117,13 @@ const experiences = {
       role: 'Site Reliability Engineering Co-op',// Here Add Company Name
       companylogo: require('../assets/img/intralinks.png'),
       date: 'June 2020 – Jan 2021',
-      content: ["• Created a ‘Status Page’, automated and integrated it with the monitoring tool (SaaS) informing the customer about downtime, incident, maintenance of the products and services, easily communicate real-time status to end-user",
+      content: ["• Created a ‘Status Page’, automated and integrated it with the monitoring tool (SaaS) informing the customer about downtime, incident, maintenance of the products and services, easily communicate real-time status to end-user\n",
                 "• Set up monitoring, alerts, handled overloads on the server and automated tasks via CI/CD pipeline\n",
-                "• Deployed code updates into the production environment, worked to roll environment forward and performed release engineering\n",
+                "• Deployed code update, worked to roll environment forward and performed release engineering\n",
                 "• Troubleshoot and escalate bugs for Live server product, examining, investigating, and resolving problems to help smooth product performance and tracking progress through JIRA, ServiceNow, and Git Repositories\n",
                 "• Created and maintained documentation of systems and processes for existing and new systems on Confluence\n",]
     },
   ]
 }
-
-// Blog SECTION
-// const blog = {
-//   show: false,
-// };
 
 export { navBar, mainBody, about, repos, skills, getInTouch, experiences };
