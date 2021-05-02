@@ -131,14 +131,14 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
-    },
-    {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Site Reliability Engineering Co-op',// Here Add Company Name
+      companylogo: require('../assets/img/intralinks.png'),
+      date: 'June 2020 – Jan 2021',
+      content: ["• Created a ‘Status Page’, automated and integrated it with the monitoring tool (SaaS) informing the customer about downtime, incident, maintenance of the products and services, easily communicate real-time status to end-user",
+                "• Set up monitoring, alerts, handled overloads on the server and automated tasks via CI/CD pipeline\n",
+                "• Deployed code updates into the production environment, worked to roll environment forward and performed release engineering\n",
+                "• Troubleshoot and escalate bugs for Live server product, examining, investigating, and resolving problems to help smooth product performance and tracking progress through JIRA, ServiceNow, and Git Repositories\n",
+                "• Created and maintained documentation of systems and processes for existing and new systems on Confluence\n",]
     },
   ]
 }

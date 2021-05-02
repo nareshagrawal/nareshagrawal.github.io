@@ -6,17 +6,16 @@ import {
  } from "react-bootstrap";
 const ExperienceCard = ({data}) => {
     return ( 
-        <Col lg="6">
-            <div className="pb-5 text-center">
-                <img className=" bg-white mb-3" src={data.companylogo} alt=""/>
+            <div className="pb-5 text-center m-auto">
+                <img className=" bg-white mb-3 w-25 p-3" src={data.companylogo} alt=""/>
                 <p className="lead">
                     {data.role}
                     <br/>
                     {data.date}
-                </p>
-                
+                    <br/>
+                    {data.content}
+                </p>              
             </div>
-        </Col>
      );
 }
  
