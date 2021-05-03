@@ -15,7 +15,7 @@ const ProjectCard = ({ value }) => {
   } = value;
   return (
     <Col md={6}>
-      <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
+      <Card className="card shadow-lg p-3 mb-5 bg-white rounded project-box">
         <Card.Body>
           <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
           <Card.Text>{(!description)?"":description || <Skeleton count={3} />} </Card.Text>
