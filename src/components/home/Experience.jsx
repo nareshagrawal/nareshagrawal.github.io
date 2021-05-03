@@ -11,7 +11,7 @@ const Experience = ({experiences}) => {
         <section className="section">
             <Container>
                 <Jumbotron fluid className="bg-white">
-                    <h2 className="display-4 mb-5 text-center">
+                    <h2 className="display-4 text-center">
                         {experiences.heading}
                     </h2>
                     <Row>
