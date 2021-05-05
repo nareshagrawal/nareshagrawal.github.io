@@ -33,7 +33,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
     <div id="aboutme" className="jumbotron jumbotron-fluid m-0">
       <div className="container container-fluid">
         <div className="row">
-          <div className="col-5 d-none d-lg-block align-self-center">
+          <div className="col-5 m-auto d-lg-block align-self-center">
             {showPic && (
               <img
                 className="border border-secondary rounded-circle"
