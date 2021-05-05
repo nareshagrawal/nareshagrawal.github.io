@@ -14,6 +14,7 @@ const Experience = ({experiences}) => {
                     <h2 className="display-4 text-center">
                         {experiences.heading}
                     </h2>
+                    <br/>
                     <Row>
                         {
                             experiences.data.map(data => {
