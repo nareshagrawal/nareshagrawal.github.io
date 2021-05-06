@@ -77,6 +77,12 @@ const Navigation = React.forwardRef((props, ref) => {
               Skills
             </Nav.Link>
           )}
+          <Nav.Link
+              className="nav-link lead"
+              href={process.env.PUBLIC_URL + "/#contact"}
+            >
+              Contact
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
