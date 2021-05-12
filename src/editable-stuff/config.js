@@ -89,13 +89,13 @@ const skills = {
     { name: "SQL, NoSQL", value: 90 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Goal-Oriented", value: 90 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Positivity", value: 85 },
     { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
+    { name: "Problem Solving", value: 95 },
     { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
+    { name: "Organization", value: 90 },
     { name: "Creativity", value: 90 },
   ],
 };
