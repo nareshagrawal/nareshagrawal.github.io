@@ -75,7 +75,7 @@ const skills = {
   hardSkills: [
     { name: "AWS, Azure", value: 95 },
     { name: "Kubernetes, Kops, Helm Chart", value: 95 },
-    { name: "IaC(Ansible, Terraform)", value: 95 },
+    { name: "IaC(Ansible, Terraform, Packer)", value: 95 },
     { name: "CI/CD(Jenkins, CircleCI, GitHub Actions)", value: 95 },
     { name: "Microservices, RESTful APIs", value: 95 },
     { name: "Docker, Git", value: 95 },
