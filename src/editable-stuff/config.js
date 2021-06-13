@@ -21,7 +21,7 @@ const mainBody = {
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/naresh_agrawal316/",
+      url: "https://www.instagram.com/thenareshagrawal",
     },
     {
       image: "fa-linkedin",
@@ -51,7 +51,7 @@ const about = {
   imageSize: "100%",
   message:
     "An Engineer by profession, a problem-solver by passion. I possess a strong technical background and a “Roll up your sleeves” attitude, going above and beyond the team to accomplish objectives and key results. I am a team player, a keen learner, and believe in consistency by nature. Problems that are challenging and that have a large-scale impact, excite me most.\n Currently, a full-time graduate student pursuing a Master's in Information Systems at Northeastern University, Boston. An ambitious and analytical individual, utilizing exceptional skills and competence in understanding client business requirements and delivering the best possible solution.",
-  resume: require("../editable-stuff/resume.pdf"),
+  resume: require("../editable-stuff/Naresh_Agrawal_Resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -119,7 +119,8 @@ const experiences = {
       date: 'June 2020 – Jan 2021',
       content: ["• Created a ‘Status Page’, automated and integrated it with the monitoring tool (SaaS) informing the customer about downtime, incident, maintenance of the products and services, easily communicate real-time status to end-user\n",
                 "• Set up monitoring, alerts, handled overloads on the server and automated tasks via CI/CD pipeline\n",
-                "• Deployed code update, worked to roll environment forward and performed release engineering\n",
+                "• Defined SLAs, SLOs and error budgets for mission critical platforms\n",
+                "• Deployed code update on Kubernetes, worked to roll environment forward and performed release engineering\n",
                 "• Troubleshoot and escalate bugs for Live server product, examining, investigating, and resolving problems to help smooth product performance and tracking progress through JIRA, ServiceNow, and Git Repositories\n",
                 "• Created and maintained documentation of systems and processes for existing and new systems on Confluence\n",]
     },
