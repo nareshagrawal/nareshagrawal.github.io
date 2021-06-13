@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ae6b4bf253831e7bd22a57dd0a1a12e",
+    "revision": "91088043b3a58b9f8dd8e0c479a3aa37",
     "url": "/index.html"
   },
   {
-    "revision": "ed7c6abcee05915112fb",
+    "revision": "6328f61a05be9f268c62",
     "url": "/static/css/main.d5c8f8ff.chunk.css"
   },
   {
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.c27da463.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ed7c6abcee05915112fb",
-    "url": "/static/js/main.7a7694ba.chunk.js"
+    "revision": "6328f61a05be9f268c62",
+    "url": "/static/js/main.02ce9765.chunk.js"
   },
   {
     "revision": "f52ba179432c3be28857",
     "url": "/static/js/runtime-main.554504a0.js"
+  },
+  {
+    "revision": "619b8394c3725d52ca9f710cf3e6cb96",
+    "url": "/static/media/Naresh_Agrawal_Resume.619b8394.pdf"
   },
   {
     "revision": "2d7b8492200f68062188ad7d9819807b",
@@ -30,9 +34,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f465cd702a2e01b6757b9658e265aa04",
     "url": "/static/media/nareshagrawal.f465cd70.png"
-  },
-  {
-    "revision": "8b6f3d137a656b44daf479b360e2e3fa",
-    "url": "/static/media/resume.8b6f3d13.pdf"
   }
 ]);
