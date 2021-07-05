@@ -55,19 +55,21 @@ Creating Portfolio
    $ npm start
    ```
 
-7. To deploy website, run:
+7. To deploy website:
+* Create repository of name [<github-username>.github.io]
+* Copy source code to [<github-username>.github.io] repository
 
    ```bash
     $ npm run build
     $ npm run deploy
    ```
 
-   Or for deployment at \<username>.github.io, refer [pages.js](./pages.js)
+   Or for deployment at \<github-username>.github.io, refer [pages.js](./pages.js)
 
 8. Congrats your site is up and running. To see it live, visit:
 
    ```https
-     https://<your-username>.github.io/home
+     https://<github-username>.github.io/home
    ```
 
 9. To change the thumbnail image:
@@ -77,4 +79,4 @@ Creating Portfolio
     - Delete it.   
     - Take a screenshot of your version and rename it "social-image.png" and place it there.  
     
-   Next time if you make changes, repeat from step 8.
+   Next time if you make changes, repeat from step 6.
