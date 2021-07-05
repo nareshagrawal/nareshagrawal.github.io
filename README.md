@@ -56,8 +56,8 @@ Creating Portfolio
    ```
 
 7. To deploy website:
-* Create repository of name [<github-username>.github.io]
-* Copy source code to [<github-username>.github.io] repository
+    - Create repository of name <i>\<github-username>.github.io</i>
+    - Copy source code to \<github-username>.github.io repository
 
    ```bash
     $ npm run build
