@@ -22,6 +22,7 @@ Creating Portfolio
 ## Technology Stack
 * React
 * GitHub API
+* GitHub pages
 
 ## Prerequisites
 * React
@@ -44,21 +45,21 @@ Creating Portfolio
 5. Change URL in [package.json](./package.json) file:
 
    ```json
-    "homepage": "https://<your-username>.github.io/"
+    "homepage": "https://<github-username>.github.io/"
    ```
 
 6. After editing run the following bash commands to run website locally:
 
    ```bash
-   npm install
-   npm start
+   $ npm install
+   $ npm start
    ```
 
 7. To deploy website, run:
 
    ```bash
-    npm run build
-    npm run deploy
+    $ npm run build
+    $ npm run deploy
    ```
 
    Or for deployment at \<username>.github.io, refer [pages.js](./pages.js)
