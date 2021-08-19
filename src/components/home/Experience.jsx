@@ -18,7 +18,7 @@ const Experience = ({experiences}) => {
                     <Row>
                         {
                             experiences.data.map(data => {
-                                return <ExperienceCard key={data.company} data={data} />
+                                return <ExperienceCard key={data.companylogo} data={data} />
                             })
                         }
                     </Row>
