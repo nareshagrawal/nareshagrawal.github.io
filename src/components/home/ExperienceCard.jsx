@@ -7,7 +7,7 @@ import {
 const ExperienceCard = ({data}) => {
     return ( 
             <div className="text-center">
-                <a href="https://www.intralinks.com/" target=" _blank">
+                <a href= {data.companyWebsite} target=" _blank">
                     <img className=" bg-white mb-3 w-25 p-3" src={data.companylogo} alt=""/>
                 </a>
                 <div className="lead">

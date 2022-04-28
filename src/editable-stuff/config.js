@@ -81,7 +81,7 @@ const skills = {
     { name: "Docker, Git", value: 95 },
     { name: "Apache Kafka, Apache JMeter", value: 95 },
     { name: "DevOps Tools", value: 95 },
-    { name: "Scripting (Bash, Python)", value: 75 },
+    { name: "Golang, Scripting (Bash, Python)", value: 75 },
     { name: "Data Structures", value: 85 },
     { name: "Java, Spring Boot, Spring MVC, Hibernate", value: 90 },
     { name: "JavaScript, React", value: 80 },
@@ -114,16 +114,34 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Site Reliability Engineering Co-op',// Here Add Company Name
+      role: 'Site Reliability Engineering',
+      companylogo: require('../assets/img/blackrock.png'),
+      date: 'October 2021 – Present',
+      companyWebsite: 'https://www.blackrock.com/us/individual',
+      content: [
+                "• Worked on cluster cost attribution and optimize infrastructure to reduce cost\n",
+                "• Collaborated with peers on development of new automation tools and services with proof-of-concept presentation\n",
+                "• Developed CI/CD roadmap and operations processes inside team\n",
+                "• Developed root cause analysis and work with the team for the development of enhancements/fixes\n",
+                "• Implemented Go script to backfill patches to existing configuration\n",
+                "• Document root cause analysis reports and develop standard operating procedures\n",
+              ]
+    },
+    {
+      role: 'Site Reliability Engineering Co-op',
       companylogo: require('../assets/img/intralinks.png'),
       date: 'June 2020 – Jan 2021',
-      content: ["• Created a ‘Status Page’, automated and integrated it with the monitoring tool (SaaS) informing the customer about downtime, incident, maintenance of the products and services, easily communicate real-time status to end-user\n",
-                "• Set up monitoring, alerts, handled overloads on the server and automated tasks via CI/CD pipeline\n",
-                "• Defined SLAs, SLOs and error budgets for mission critical platforms\n",
-                "• Deployed code update on Kubernetes, worked to roll environment forward and performed release engineering\n",
-                "• Troubleshoot and escalate bugs for Live server product, examining, investigating, and resolving problems to help smooth product performance and tracking progress through JIRA, ServiceNow, and Git Repositories\n",
-                "• Created and maintained documentation of systems and processes for existing and new systems on Confluence\n",]
+      companyWebsite: 'https://www.intralinks.com/',
+      content: [
+                "•  Created a ‘Status Page’, automated and integrated it with the monitoring tool (SaaS) informing the customer about downtime, incident, maintenance of the products and services, easily communicate real-time status to end-user\n",
+                "•  Set up monitoring, alerts, handled overloads on the server and automated tasks via CI/CD pipeline\n",
+                "•  Defined SLAs, SLOs and error budgets for mission critical platforms\n",
+                "•  Deployed code update on Kubernetes, worked to roll environment forward and performed release engineering\n",
+                "•  Troubleshoot and escalate bugs for Live server product, examining, investigating, and resolving problems to help smooth product performance and tracking progress through JIRA, ServiceNow, and Git Repositories\n",
+                "•  Created and maintained documentation of systems and processes for existing and new systems on Confluence\n",
+              ]
     },
+    
   ]
 }
 

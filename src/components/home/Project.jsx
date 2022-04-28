@@ -44,7 +44,7 @@ const Project = ({ heading, username, length, specfic }) => {
       }
       // setting projectArray
       // TODO: remove the duplication.
-      let newRepoList = repoList.filter( el => el.name !== "nareshagrawal.github.io" && el.name !== "FetchRewards" ); 
+      let newRepoList = repoList.filter( el => el.name !== "nareshagrawal.github.io" && el.name !== "FetchRewards" && el.name !== "cost-analyzer-helm-chart" ); 
       setProjectsArray(newRepoList);
     } catch (error) {
       console.error(error.message);
