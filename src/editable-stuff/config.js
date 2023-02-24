@@ -119,12 +119,15 @@ const experiences = {
       date: 'October 2021 – Present',
       companyWebsite: 'https://www.blackrock.com/us/individual',
       content: [
-                "• Worked on cluster cost attribution and optimize infrastructure to reduce cost\n",
-                "• Collaborated with peers on development of new automation tools and services with proof-of-concept presentation\n",
-                "• Developed CI/CD roadmap and operations processes inside team\n",
-                "• Developed root cause analysis and work with the team for the development of enhancements/fixes\n",
-                "• Implemented Go script to backfill patches to existing configuration\n",
-                "• Document root cause analysis reports and develop standard operating procedures\n",
+                "• Worked on cluster cost attribution and optimized infrastructure to reduce costs\n",
+                "• Collaborated with peers on the development of new automation tools and services with proof-of-concept presentations\n",
+                "• Developed CI/CD roadmap and operations processes inside the team\n",
+                "• Developed root cause analysis, working with the team on the development of enhancements/fixes and documented root cause analysis reports, and develop standard operating procedures\n",
+                "• Implemented Go script to backfill patches to the existing configuration\n",
+                "• Reduce configuration drift across 100s of servers\n",
+                "• Install the infrastructure using Terraform, building Infrastructure as Code\n",
+                "• Developed new automated monitoring and testing solution, ensuring that all the policies and pipelines run successfully\n",
+                "• Monitoring and diagnosis of systems for optimal performance\n",
               ]
     },
     {
