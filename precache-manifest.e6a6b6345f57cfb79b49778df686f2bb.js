@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "458e8c650961a0cd98d4a84c1329eef6",
+    "revision": "bec3426f42ad5ce25ac37877a1780211",
     "url": "/index.html"
   },
   {
-    "revision": "c790ac0dada64dc1b87e",
-    "url": "/static/css/main.b9f9f85e.chunk.css"
+    "revision": "126636a13888a30fc8d3",
+    "url": "/static/css/main.f9abb2f7.chunk.css"
   },
   {
-    "revision": "130b85387db7bf0045b8",
-    "url": "/static/js/2.1ba8c657.chunk.js"
+    "revision": "33ee55a2476ae15a050d",
+    "url": "/static/js/2.a2f0fe75.chunk.js"
   },
   {
     "revision": "c87e50d81cc7b5311525cc6fd5482ea5",
-    "url": "/static/js/2.1ba8c657.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a2f0fe75.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c790ac0dada64dc1b87e",
-    "url": "/static/js/main.aafd5d7e.chunk.js"
+    "revision": "126636a13888a30fc8d3",
+    "url": "/static/js/main.b047c100.chunk.js"
   },
   {
     "revision": "f52ba179432c3be28857",
     "url": "/static/js/runtime-main.554504a0.js"
   },
   {
-    "revision": "3008242475bfc22b2c00e7f71388e447",
-    "url": "/static/media/Naresh_Agrawal_Resume.30082424.pdf"
+    "revision": "ff2460ca14cfa2d0ab85b0789504525f",
+    "url": "/static/media/Naresh_Agrawal_Resume.ff2460ca.pdf"
   },
   {
     "revision": "2d7b8492200f68062188ad7d9819807b",
