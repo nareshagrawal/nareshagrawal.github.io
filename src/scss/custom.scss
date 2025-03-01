@@ -1,5 +1,5 @@
-@import "~bootstrap/scss/bootstrap.scss";
-@import "./animations";
-@import "./index";
-@import "./stars";
-@import "./typography";
+@use "~bootstrap/scss/bootstrap.scss";
+@use "animations";
+@use "index";
+@use "stars";
+@use "typography";

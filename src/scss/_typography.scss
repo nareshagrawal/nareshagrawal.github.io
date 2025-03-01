@@ -1,3 +1,8 @@
+@use "sass:map";
+@use "sass:math";
+@use "sass:meta";
+@use "~bootstrap/scss/bootstrap.scss";
+
 $type-scales: (
   minor-second: 1.067,
   major-second: 1.125,
@@ -12,9 +17,9 @@ $heading-type-scale-base: minor-third;
 $display-type-scale-base: minor-third;
 
 @function check-type-scale-value($scale) {
-  @if map-has-key($type-scales, $scale) {
-    @return map-get($type-scales, $scale);
-  } @else if type-of($scale) == number and unitless($scale) {
+  @if map.has-key($type-scales, $scale) {
+    @return map.get($type-scales, $scale);
+  } @else if meta.type-of($scale) == number and math.is-unitless($scale) {
     @return $scale;
   } @else {
     @error "Sorry, `#{$scale}` is not a unitless number value or a pre-defined key in the $type-scales map.";
@@ -23,7 +28,7 @@ $display-type-scale-base: minor-third;
 
 @mixin create-heading-type-scale($scale) {
   $the-heading-type-scale: check-type-scale-value($scale);
-  $font-size-h6: $font-size-base;
+  $font-size-h6: bootstrap.$font-size-base;
   $font-size-h5: $font-size-h6 * $the-heading-type-scale;
   $font-size-h4: $font-size-h5 * $the-heading-type-scale;
   $font-size-h3: $font-size-h4 * $the-heading-type-scale;
@@ -58,7 +63,7 @@ $display-type-scale-base: minor-third;
 
 @mixin create-display-type-scale($scale) {
   $the-display-type-scale: check-type-scale-value($scale);
-  $font-size-display-4: $font-size-display-base + $font-size-base;
+  $font-size-display-4: $font-size-display-base + bootstrap.$font-size-base;
   $font-size-display-3: $font-size-display-4 * $the-display-type-scale;
   $font-size-display-2: $font-size-display-3 * $the-display-type-scale;
   $font-size-display-1: $font-size-display-2 * $the-display-type-scale;

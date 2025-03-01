@@ -48,9 +48,9 @@ const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/nareshagrawal.png"),
-  imageSize: "100%",
+  imageSize: "70%",
   message:
-    "An Engineer by profession, a problem-solver by passion. I possess a strong technical background and a “Roll up your sleeves” attitude, going above and beyond the team to accomplish objectives and key results. I am a team player, a keen learner, and believe in consistency by nature. Problems that are challenging and that have a large-scale impact, excite me most.\n Currently, working as a Site Reliability Engineer at BlackRock. I graduated with a Master's degress in Information Systems from Northeastern University, Boston. An ambitious and analytical individual, utilizing exceptional skills and competence in understanding client business requirements and delivering the best possible solution.",
+    "An Engineer by profession, a problem-solver by passion. I possess a strong technical background and a “Roll up your sleeves” attitude, going above and beyond the team to accomplish objectives and key results. I am a team player, a keen learner, and believe in consistency by nature. Problems that are challenging and that have a large-scale impact, excite me most.\n Currently, working as a Site Reliability Engineer 3 at Juniper Networks. I graduated with a Master's degress in Information Systems from Northeastern University, Boston. An ambitious and analytical individual, utilizing exceptional skills and competence in understanding client business requirements and delivering the best possible solution.",
   resume: require("../editable-stuff/Naresh_Agrawal_Resume.pdf"),
 };
 
@@ -114,37 +114,50 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Site Reliability Engineer',
-      companylogo: require('../assets/img/blackrock.png'),
-      date: 'October 2021 – Present',
-      companyWebsite: 'https://www.blackrock.com/us/individual',
+      role: 'Site Reliability Engineer 3',
+      companylogo: require('../assets/img/juniper_logo.png'),
+      date: 'May 2023 – Present',
+      companyWebsite: 'https://www.juniper.net/us/en.html',
       content: [
-                "• Worked on cluster cost attribution and optimized infrastructure to reduce costs\n",
-                "• Collaborated with peers on the development of new automation tools and services with proof-of-concept presentations\n",
-                "• Developed CI/CD roadmap and operations processes inside the team\n",
-                "• Developed root cause analysis, working with the team on the development of enhancements/fixes and documented root cause analysis reports, and develop standard operating procedures\n",
-                "• Implemented Go script to backfill patches to the existing configuration\n",
-                "• Reduce configuration drift across 100s of servers\n",
-                "• Install the infrastructure using Terraform, building Infrastructure as Code\n",
-                "• Developed new automated monitoring and testing solution, ensuring that all the policies and pipelines run successfully\n",
-                "• Monitoring and diagnosis of systems for optimal performance\n",
-              ]
+        "• Performed EKS clusters upgrade with zero downtime using blue green deployment strategies, ensuring continuous availability and minimizing service disruption\n",
+        "• Designed and architected health check API to retrieve health/status of pods, improving deployment efficiency by 30% through automation of CI/CD pipelines\n",
+        "• Conduct performance tuning and capacity planning to optimize resource utilization and reduce cost\n",
+        "• Improved lifecycle of services from inception and design through deployment, operation, and refinement\n",
+        "• Working on infrastructure automation with Terraform, Packer, CI/CD, and configuring systems using Ansible\n",
+        "• Working with Linux operating systems internals, file systems, administration, and networking\n",
+      ]
     },
     {
-      role: 'Site Reliability Engineering Co-op',
+      role: 'Site Reliability Engineer 2',
+      companylogo: require('../assets/img/blackrock.png'),
+      date: 'October 2021 – March 2023',
+      companyWebsite: 'https://www.blackrock.com/us/individual',
+      content: [
+        "• Worked on cluster cost attribution and optimized infrastructure to reduce costs\n",
+        "• Collaborated with peers on the development of new automation tools and services with proof-of-concept presentations\n",
+        "• Developed CI/CD roadmap and operations processes inside the team\n",
+        "• Developed root cause analysis, working with the team on the development of enhancements/fixes and documented root cause analysis reports, and develop standard operating procedures\n",
+        "• Implemented Go script to backfill patches to the existing configuration\n",
+        "• Reduce configuration drift across 100s of servers\n",
+        "• Install the infrastructure using Terraform, building Infrastructure as Code\n",
+        "• Developed new automated monitoring and testing solution, ensuring that all the policies and pipelines run successfully\n",
+        "• Monitoring and diagnosis of systems for optimal performance\n",
+      ]
+    },
+    {
+      role: 'Site Reliability Engineering Intern',
       companylogo: require('../assets/img/intralinks.png'),
       date: 'June 2020 – Jan 2021',
       companyWebsite: 'https://www.intralinks.com/',
       content: [
-                "•  Created a ‘Status Page’, automated and integrated it with the monitoring tool (SaaS) informing the customer about downtime, incident, maintenance of the products and services, easily communicate real-time status to end-user\n",
-                "•  Set up monitoring, alerts, handled overloads on the server and automated tasks via CI/CD pipeline\n",
-                "•  Defined SLAs, SLOs and error budgets for mission critical platforms\n",
-                "•  Deployed code update on Kubernetes, worked to roll environment forward and performed release engineering\n",
-                "•  Troubleshoot and escalate bugs for Live server product, examining, investigating, and resolving problems to help smooth product performance and tracking progress through JIRA, ServiceNow, and Git Repositories\n",
-                "•  Created and maintained documentation of systems and processes for existing and new systems on Confluence\n",
-              ]
+        "•  Created a ‘Status Page’, automated and integrated it with the monitoring tool (SaaS) informing the customer about downtime, incident, maintenance of the products and services, easily communicate real-time status to end-user\n",
+        "•  Set up monitoring, alerts, handled overloads on the server and automated tasks via CI/CD pipeline\n",
+        "•  Defined SLAs, SLOs and error budgets for mission critical platforms\n",
+        "•  Deployed code update on Kubernetes, worked to roll environment forward and performed release engineering\n",
+        "•  Troubleshoot and escalate bugs for Live server product, examining, investigating, and resolving problems to help smooth product performance and tracking progress through JIRA, ServiceNow, and Git Repositories\n",
+        "•  Created and maintained documentation of systems and processes for existing and new systems on Confluence\n",
+      ]
     },
-    
   ]
 }
 
