@@ -48,7 +48,7 @@ const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/nareshagrawal.png"),
-  imageSize: "70%",
+  imageSize: "80%",
   message:
     "An Engineer by profession, a problem-solver by passion. I possess a strong technical background and a “Roll up your sleeves” attitude, going above and beyond the team to accomplish objectives and key results. I am a team player, a keen learner, and believe in consistency by nature. Problems that are challenging and that have a large-scale impact, excite me most.\n Currently, working as a Site Reliability Engineer 3 at Juniper Networks. I graduated with a Master's degress in Information Systems from Northeastern University, Boston. An ambitious and analytical individual, utilizing exceptional skills and competence in understanding client business requirements and delivering the best possible solution.",
   resume: require("../editable-stuff/Naresh_Agrawal_Resume.pdf"),

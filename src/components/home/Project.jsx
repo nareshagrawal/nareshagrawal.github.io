@@ -44,7 +44,7 @@ const Project = ({ heading, username, length, specfic }) => {
       }
       // setting projectArray
       // TODO: remove the duplication.
-      let newRepoList = repoList.filter( el => el.name !== "nareshagrawal.github.io" && el.name !== "FetchRewards" && el.name !== "cost-analyzer-helm-chart" ); 
+      let newRepoList = repoList.filter(el => el.name !== "nareshagrawal.github.io" && el.name !== "FetchRewards" && el.name !== "cost-analyzer-helm-chart");
       setProjectsArray(newRepoList);
     } catch (error) {
       console.error(error.message);
@@ -59,7 +59,7 @@ const Project = ({ heading, username, length, specfic }) => {
     <Jumbotron fluid id="projects" className="bg-light m-0">
       <Container className="">
         <h2 className="display-4 pb-5 text-center">{heading}</h2>
-        <Row>
+        <Row className="d-flex flex-wrap align-items-stretch">
           {projectsArray.length
             ? projectsArray.map((project, index) => (
                 <ProjectCard
